@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+*{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+::-webkit-scrollbar {
+  width: 1px;               /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;        /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  height: 1px;       /* roundness of the scroll thumb */
+  border: 0px;  /* creates padding around scroll thumb */
+}
+
+.DropDown{
+    height: 18rem ;
+    overflow: hidden;
+    animation: drop 500ms ease-in-out ;
+}
+
+@keyframes drop {
+  from{
+    height: 1rem;
+  }
+  to{
+    height: 18rem;
+  }
+}
+
+

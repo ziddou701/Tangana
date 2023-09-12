@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67" height="67" viewBox="0 0 67 67">
+  <defs>
+    <filter id="Rectangle_4" x="0" y="0" width="67" height="67" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_27" data-name="Group 27" transform="translate(-90 -724)">
+    <g transform="matrix(1, 0, 0, 1, 90, 724)" filter="url(#Rectangle_4)">
+      <rect id="Rectangle_4-2" data-name="Rectangle 4" width="49" height="49" rx="10" transform="translate(9 6)" fill="#4267b2"/>
+    </g>
+    <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M22.38,23.344l1.153-7.511H16.326V10.959C16.326,8.9,17.332,6.9,20.56,6.9h3.276V.507A39.953,39.953,0,0,0,18.021,0C12.086,0,8.206,3.6,8.206,10.109v5.724h-6.6v7.511h6.6V41.5h8.119V23.344Z" transform="translate(112.25 737.5)" fill="#fff"/>
+  </g>
+</svg>

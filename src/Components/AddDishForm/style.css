@@ -1,0 +1,96 @@
+/* Add Option Group CreateDishForm */
+.option-group{
+    box-shadow: 0 10px 8px rgb(0 0 0 / 0.04);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem ;
+    margin-bottom: 2rem ;
+    width: 85%;
+    border: solid #f0f0f0 1px;
+    border-radius: 0.5rem ;
+    padding: 0.5rem ;
+  }
+  .option-group-button{
+    /*' px-4 py-2 hover:ring-1 hover:ring-[#f1356D] duration-200 
+    border-[#F1356D] border text-[#f1356d] font-bold text-sm mx-auto 
+    xl:ml-12 rounded-lg my-3 ' */
+    padding: .2rem 1rem;
+    border: solid 1px #f1365d;
+    color: #f1365d;
+    font-weight: bold;
+    font-size: medium;
+    margin: 1rem auto;
+    border-radius: .5rem;
+  }.option-group-button:hover{
+    transition: 200ms;
+    box-shadow: 0px 0px 0px 2px #f1365d;
+  }@media(min-width:1280px){
+    .option-group-button{
+        margin-left: 3rem;
+    }
+  }
+
+  .delete-option-group{
+  /* w-8 absolute -top-4 -right-4 hover:w-9 duration-200 cursor-pointer */
+    width:  2rem ;
+    position: absolute;
+    top: -1rem ;
+    right: -1rem;
+  } .delete-option-group:hover{
+    width: 2.25rem;
+    transition: 200ms;
+    cursor: pointer;
+  }
+  
+  .option-group-title{
+    /* bg-[#f0f0f0] xl:ml-4 px-2 py-1 rounded-lg xl:w-5/6 placeholder:text-[#6e6e6e] text-sm mt-2 */
+    background-color: #f0f0f0;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem ;
+    margin-top: 1rem;
+    font-weight: 700;
+  } .option-group-title::placeholder{
+    color: #6e6e6e;
+    font-weight: 700;
+  }@media (min-width: 1280px) { 
+    .option-group-title{
+      width: 83%;
+      margin-left: 1rem;
+    }
+  }
+  
+  .option{
+    /* flex flex-col xl:w-5/6 mt-3 */
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+  }@media (min-width: 1280px){
+    .option{
+        width: 83%;
+    }
+    .option input{
+        margin-left: 3rem;
+    }
+  }
+ .option input {
+    /* bg-[#f0f0f0] xl:ml-12 px-2 py-1 rounded-lg w-4/6 placeholder:text-[#6e6e6e] text-sm mt-2 */
+    background-color: #f0f0f0;
+    padding: .25rem .5rem ;
+    width: 67% ;
+    border-radius: .5rem;
+    font-size: medium;
+    margin-top: .5rem;
+ }.option input::placeholder{
+    color: #6e6e6e;
+ }
+ .option button{
+    /*'text-[#f1356d] py-1 mt-1 ml-auto mr-4 font-black' */
+    color: #f1365d;
+    padding: .5rem 0rem;
+    margin-left: auto;
+    margin-right: 1rem;
+    font-weight: bolder;
+ }
